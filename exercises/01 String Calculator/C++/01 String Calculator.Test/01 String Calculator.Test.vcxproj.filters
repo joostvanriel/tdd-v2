@@ -21,13 +21,7 @@
     <ClCompile Include="..\packages\gmock.1.11.0\lib\native\src\gmock\src\gmock_main.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TestStringCalculator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gtest\gtest-all.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gmock\gmock-all.cc">
+    <ClCompile Include="StringCalculatorTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

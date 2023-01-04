@@ -143,7 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\packages\gmock.1.11.0\lib\native\src\gmock\src\gmock_main.cc" />
-    <ClCompile Include="TestStringCalculator.cpp" />
+    <ClCompile Include="StringCalculatorTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\01 String Calculator\01 String Calculator.vcxproj">
